@@ -31,7 +31,8 @@ PRODUCT_PACKAGES += \
     charger
 
 PRODUCT_COPY_FILES += \
-    device/lge/vs985/kernel:kernel
+    device/lge/vs985/kernel:kernel \
+    device/lge/vs985/dt.img:dt.img
 
 PRODUCT_COPY_FILES += device/lge/vs985/fstab.g3:recovery/root/fstab.g3
 
