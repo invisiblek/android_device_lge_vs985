@@ -21,5 +21,5 @@
 /dev/block/platform/msm_sdcc.1/by-name/drm          /persist-lg     ext4    nosuid,nodev,barrier=1,noatime,noauto_da_alloc,errors=continue  wait,notrim
 /dev/block/platform/msm_sdcc.1/by-name/mpt          /mpt            ext4    nosuid,nodev,barrier=1,noatime,noauto_da_alloc,errors=continue  wait,notrim
 
-/devices/msm_sdcc.2/mmc_host*                       auto            auto    defaults voldmanaged=sdcard1:auto,encryptable=userdata 
-/devices/platform/xhci-hcd/usb*                     auto            auto    defaults voldmanaged=usb:auto
+/devices/msm_sdcc.2/mmc_host*                       auto            auto    defaults voldmanaged=sdcard1:auto,encryptable=userdata  twrp=display="Micro SDcard";storage;wipeingui;removable
+/devices/platform/xhci-hcd/usb*                     auto            auto    defaults voldmanaged=usb:auto                           twrp=removable;storage;display=USB-OTG
