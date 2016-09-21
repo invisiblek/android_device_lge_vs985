@@ -27,6 +27,9 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/vs985/bluetooth
 
+# Include
+TARGET_SPECIFIC_HEADER_PATH += device/lge/vs985/include
+
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_vs985_defconfig
 TARGET_REQUIRES_BUMP := true
