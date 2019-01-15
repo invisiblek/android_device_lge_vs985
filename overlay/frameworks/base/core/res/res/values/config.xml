@@ -31,9 +31,6 @@
         <item>"supl"</item>
     </string-array>
 
-    <!-- Flag specifying whether VoLTE is available on device -->
-    <bool name="config_device_volte_available">true</bool>
-
     <!-- Values for GPS configuration -->
     <string-array translatable="false" name="config_gpsParameters">
         <item>SUPL_VER=0x20000</item>
